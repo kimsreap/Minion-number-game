@@ -1,0 +1,93 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+body {
+    margin: 0 15% 0 15%;
+    background-color: aqua;
+}
+
+.intro {
+    border: 2px solid gray;
+    font-size: 10pt; 
+}
+.intro p{
+    margin: 15px;
+}
+
+h1 {
+    font-size: 30pt;
+    line-height: 70px;
+}
+
+.state {
+    height: 100px;
+    background-color: #48b348;
+    border: 2px solid gray;
+}
+
+h3 {
+    font-size: 20pt;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+h2 {
+    border: 2px solid gray;
+    font-size: 14pt;
+    color: #1a0909;
+    height: 50px;
+    line-height: 50px; 
+}
+
+#goalValue {
+    border: 2px solid gray;
+    height: 50px;
+    font-size: 16pt;
+    line-height: 50px;
+    text-align: center;
+}
+
+#currValue {
+    border: 2px solid gray;
+    height: 50px;
+    font-size: 16pt;
+    line-height: 50px;
+    text-align: center;
+}
+
+.someValue {
+    font-size: 12pt;
+    width: 123px;
+    height: 50px;
+    background-color:#eccdec; 
+    
+}
+button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+   background-color: #2fb94d; 
+}
+
+.losse {
+    border: 2px solid yellow;
+    height: 70px;
+    font-size: 16pt;
+    line-height: 30px;
+}
+
+.win {
+    border: 2px solid yellow;
+    height: 70px;
+    font-size: 16pt;
+    line-height: 30px;
+}
+
+.wrapper {
+    width: 900px;
+    background-color:#eccdec;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
