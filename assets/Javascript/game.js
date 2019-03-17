@@ -20,7 +20,7 @@ const init = _ => {
     document.querySelector('#goalValue').textContent = goalValue   
     document.querySelector('#currValue').textContent = 0    
     document.querySelector('#buttons').innerHTML = ''
-   
+//    document.querySelector('.minion').addAttribute('data-value',getRand(19))
     for (let i = 0; i < 4; i++){
         
         let btn = document.createElement('button')
@@ -54,6 +54,8 @@ const check = _ => {
     }
 }
 document.addEventListener('click', e => {
+    console.log('in click listener')
+    console.log(e.target.dataset)
     if (e.target.className === 'someValue' && !isGameOver){
 
         currValue += parseInt(e.target.dataset.value)
